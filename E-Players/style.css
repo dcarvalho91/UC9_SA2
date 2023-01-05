@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+
+/*CSS RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 91px;
+    background-color:#1E1C21;
+}
+
+.container-grid{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.menu{
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.banner{
+    height: 602px;
+    background-image: url(img/BANNER\ IMG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content h1{
+    color:white;
+    font-family: "Titillium Web";
+    font-size: 80px;
+}
+
+.banner-content p{
+    color:white;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.banner-content a{
+    padding: 19px;
+    background-color: #C31616;
+    border-radius: 10px;
+    height: 69px;
+    width: 257px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-align: center;
+}
+
+.banner-content{
+    width: 497px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content-position{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
