@@ -87,3 +87,16 @@ header{
     align-items: center;
     height: 100%;
 }
+
+.jogos{
+    background-color: black;
+    height: 117px;
+}
+
+.jogos-position{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+}
