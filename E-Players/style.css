@@ -177,3 +177,28 @@ header{
     font-weight: 600;
 }
 
+.secao-sobre {
+    background-image: url(img/fundo-sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-sobre {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 2rem;
+}
