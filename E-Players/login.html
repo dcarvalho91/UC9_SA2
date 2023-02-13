@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Players - Login</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <sript src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+    
 </head>
 <body>
 
     <header>
         <div class="container-grid cabecalho">
-            <a href=""><img src="img/logo.svg" alt="Logotipo da aplicação E-Players"></a>
+            <a href="index.html"><img src="img/logo.svg" alt="Logotipo da aplicação E-Players"></a>
             <nav class="menu">
-                <a href="">Início</a>
+                <a href="index.html">Início</a>
+                <a href="">horários</a>
                 <a href="">Campeonato</a>
                 <a href="">Resultados</a>
                 <a href="">Notícias</a>
@@ -22,24 +28,76 @@
         </div>
     </header>
 
-    <section class="banner">
-        <div class="container-grid banner-content">
-            <div class="banner-content-position">
-                <h1>Liga E-Players</h1>
-                <p>O maior portal de campeonatos online</p>
-                <a href="">Inscreva-se</a>
+    <main>
+        <section class="login-style">
+            <div class="container signup-box">
+                <p>E-mail:</p>
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-mail" required>
+                </form>
+                <br/>
+                <p>Senha:</p>
+                <form action="">
+                    <input id="campo-senha" type="senha" placeholder="Senha" required>
+                </form>
+                
+                <div class="signup-button">
+                    <button>Entrar</button>
+                </div>
+
+            </div>
+
+            <div class="container login-links">
+                <a href="">Esqueci minha senha</a>
+                <a href="">Novo por aqui? Cadastre-se já!</a>
+                <br/><br/><br/><br/><br/><br/><br/>
+                <a href="">Outras opções de login</a>
+            </div>    
+        </section>
+    
+        
+    </main>
+
+    <footer>
+        <div class="container rodape">
+            <div class="links-footer">
+                <div>
+                    <h2>Links Úteis</h2>
+                    <ul>
+                        <li><a href="#">Regras de utilização</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Páginas</h2>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Campeonatos</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Login/Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="logo-rodape" src="img/logo.svg" alt="Logo E-Players">
+            <div class="sociais">
+                <p>Faça parte do nosso clan, receba notícias e promoções!</p>
+
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-mail" required>
+                    <button>Cadastrar</button>
+                </form>
+
+                <div class="siga-nos">
+                    <h2>Siga-nos em:</h2>
+                    <a href="#"><img src="img/logo-instagram.png" alt="Logo do Instagram"></a>
+                    <a href="#"><img src="img/logo-facebook.png" alt="Logo do Facebook"></a>
+                    <a href="#"><img src="img/logo-yt.png" alt="Logo do Youtube"></a>
+                </div>
             </div>
         </div>
-    </section>
-
-    <section class="jogos">
-        <div class="container d-flex justify-content-between align-items-center jogos-position">
-            <img src="img/f1-logo.png" alt="Logo Formula 1">
-            <img src="img/lol-logo.png" alt="Logo League of Legends">
-            <img src="img/cs-logo.png" alt="Logo Counter Strike">
-            <img src="img/valorant.png" alt="Logo Valorant">
-            <img src="img/fifa.png" alt="Logo Fifa">
-        </div>
-    </section>
+    </footer>
 </body>
 </html>
