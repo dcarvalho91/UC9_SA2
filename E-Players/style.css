@@ -51,10 +51,21 @@ header{
 
 .banner{
     height: 602px;
-    background-image: url(img/BANNER\ IMG.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(img/banner_pilotos.png);
+}
+
+.banner-cs{
+    background-image: url(img/banner_cs.png);
+}
+
+.banner-lol{
+    background-image: url(img/banner_lol.png);
 }
 
 .banner-content h1{
@@ -416,6 +427,10 @@ footer {
         font-size: 25px;
     }
     
+    .menu-ativo{
+        display: flex;
+    }
+
     .cabecalho{
         position: relative;
     }
