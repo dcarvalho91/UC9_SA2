@@ -309,20 +309,19 @@ footer {
 }
 
 /*LOGIN*/
-.login-style{
-    height: 838px;
-    background-image: url(img/LOGIN\ BG.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.box-position{
+   padding-top: 50px;
+   padding-left: 700px;
 }
 
-
 .signup-box{
+    background-color: #000000;
     max-width: 443px;
-    max-height: 414px;
-    padding-top: 125px;    
-       
+    max-height: 550px;
+    border-radius: 25px; 
+    padding-top: 10px; 
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .signup-box p{
@@ -372,11 +371,7 @@ footer {
     padding-top: 50px;;
 }
 
-.login-links{
-    max-width: 443px;
-    max-height: 150px;
-    padding-top: 65px;
-}
+
 .login-links a{
     color:#fff;
     font-size: 15px;
