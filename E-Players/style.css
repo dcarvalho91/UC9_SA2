@@ -310,17 +310,15 @@ footer {
 
 /*LOGIN*/
 .box-position{
-   padding-top: 50px;
-   padding-left: 700px;
+    padding-top: 50px;
 }
 
+
 .signup-box{
+    max-width: 400px;
     background-color: #000000;
-    max-width: 443px;
-    max-height: 550px;
-    border-radius: 25px; 
-    padding-top: 10px; 
-    padding-left: 30px;
+    border-radius: 25px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -328,6 +326,7 @@ footer {
     font-family: "Roboto";
     color:#fff;
     font-size: 20px;
+    text-align: left;
 }
 
 
@@ -335,6 +334,7 @@ footer {
     font-family: "Roboto";
     width: 100%;
     display: flex;
+    align-items:flex-end;
     }
 
 .signup-box input[type="email"]{
@@ -387,12 +387,9 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    .container-grid{
+    .container-grid {
         width: 85vw;
     }
-
-    
-}
 
 @media screen and (max-width: 1000px) {
     #barras{
@@ -426,7 +423,7 @@ footer {
         display: flex;
     }
 
-    .cabecalho{
+    .cabecalho .box-position{
         position: relative;
     }
 
